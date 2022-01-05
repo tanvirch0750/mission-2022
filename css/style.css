@@ -1,3 +1,7 @@
+/* *************************
+GENERAL CSS
+************************* */
+
 * {
   margin: 0;
   padding: 0;
@@ -15,9 +19,9 @@ body {
   color: #343a40;
 }
 
-strong {
-  font-weight: 500;
-}
+/* *************************
+REUSABLE CSS
+************************* */
 
 .container {
   max-width: 1200px;
@@ -60,6 +64,23 @@ strong {
   margin-left: -4px;
 }
 
+.heading-secondary {
+  font-size: 44px;
+  line-height: 1.2;
+  color: #212529;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+.heading-secondary span {
+  color: #087f5b;
+}
+
+/* *************************
+HERO SECTION CSS
+************************* */
 .hero {
   background-color: rgba(230, 252, 245, 0.596);
   padding: 48px 0;
@@ -91,4 +112,43 @@ strong {
 
 .hero-img-box img {
   width: 100%;
+}
+
+/* *************************
+HERO SECTION CSS
+************************* */
+.benefit {
+  padding: 96px 0;
+}
+
+.resolution-box-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  margin-top: 80px;
+}
+
+.resolution-box {
+  width: 33.33%;
+  background-color: #e6fcf5;
+  padding: 40px;
+  border: 5px solid rgba(195, 250, 232, 0.336);
+  border-radius: 10px;
+}
+
+.resolution-img {
+  width: 100px;
+  margin-bottom: 32px;
+}
+
+.resolution-box-title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  color: #087f5b;
+}
+
+.resolution-box-description {
+  line-height: 1.4;
+  font-size: 18px;
+  color: #212529;
 }
