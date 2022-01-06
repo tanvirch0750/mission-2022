@@ -57,6 +57,7 @@ h2 {
   margin-bottom: 32px;
   color: #212529;
   text-transform: capitalize;
+  letter-spacing: -1.7px;
 }
 
 .border-span {
@@ -122,6 +123,11 @@ HERO SECTION CSS
   color: #212529;
   font-weight: 400;
   margin-bottom: 48px;
+}
+
+.hero-direction-text {
+  margin-top: 48px;
+  font-size: 18px;
 }
 
 .hero-img-box {
