@@ -33,7 +33,9 @@ REUSABLE CSS
   text-align: center;
 }
 
-.primary-btn {
+.primary-btn:link,
+.primary-btn:visited,
+button {
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
@@ -43,6 +45,12 @@ REUSABLE CSS
   padding: 16px 32px;
   border-radius: 3px;
   text-transform: capitalize;
+  transition: 300ms;
+}
+
+.primary-btn:hover,
+.primary-btn:active {
+  background-color: #099268;
 }
 
 h1,
@@ -273,6 +281,11 @@ CALL TO ACTION SECTION
   color: inherit;
 }
 
+.form-control .email:focus {
+  outline: none;
+  background-color: #fff;
+}
+
 .form-control .subs-btn {
   width: 40%;
   border: none;
@@ -281,6 +294,10 @@ CALL TO ACTION SECTION
   border-radius: 5px;
   margin-left: 5px;
   cursor: pointer;
+}
+
+.subs-btn:hover {
+  background-color: #fff;
 }
 
 .privacy-text {
